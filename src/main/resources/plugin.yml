@@ -1,0 +1,12 @@
+name: NameWorkstation
+main: com.nameworkstation.NameWorkstationPlugin
+version: 1.0
+api-version: 1.21
+commands:
+  nameworkstation:
+    description: Open the Name Workstation GUI.
+    usage: /<command>
+permissions:
+  nameworkstation.use:
+    description: Allows use of the Name Workstation.
+    default: true

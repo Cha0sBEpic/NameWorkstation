@@ -1,0 +1,19 @@
+# Name Workstation Config
+
+xp-cost:
+  rename: 1
+  format: 1
+  color: 1
+
+require-dye-for-color: true
+
+# Permissions can restrict access to certain colors
+color-permissions:
+  rainbow: nameworkstation.color.rainbow
+  trans: nameworkstation.color.trans
+
+messages:
+  no-permission: "&cYou don't have permission to do that."
+  not-enough-xp: "&cYou need more experience to apply changes."
+  missing-dye: "&cYou don't have the required dye color: %color%"
+  applied: "&aChanges applied successfully."
